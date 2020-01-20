@@ -1,0 +1,54 @@
+﻿using System;
+
+namespace _708842
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            Console.WriteLine("Enter one digit");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Second digit");
+            int b = Convert.ToInt32(Console.ReadLine());
+
+            int c = a + b;
+            int e = a * b;
+            int d = a / b;
+
+            Console.WriteLine("add " + c);
+            Console.WriteLine("add " + e);
+            Console.WriteLine("add " + d);
+
+            //Question C
+
+            Console.WriteLine("Enter one digit");
+            int aa = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Second digit");
+            int bb = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("one digit is {0} and second digit is {1}", aa, bb);
+            int swap;
+
+            swap = aa;
+            aa = bb;
+            bb = swap;
+
+            Console.WriteLine("After swapping one digit is {0} and second digit is {1}", aa, bb);
+
+
+            //Question D
+
+            Console.WriteLine("Enter one digit");
+            int q = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Second digit");
+            int r = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter one digit");
+            int s = Convert.ToInt32(Console.ReadLine());
+
+            int p = q * r * s;
+            Console.WriteLine("Multiplication of three number is " + p);
+        }
+    }
+}
+
