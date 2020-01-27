@@ -1,7 +1,8 @@
-﻿using System;
+using System;
 
 namespace _708842
 {
+}
     class Program
     {
         static void Main(string[] args)
@@ -48,7 +49,59 @@ namespace _708842
 
             int p = q * r * s;
             Console.WriteLine("Multiplication of three number is " + p);
+
+            //Question E
+
+            Console.WriteLine("add digit");
+            int ee = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 1; i < 11; i++)
+            {
+                int ii = ee * i;
+                Console.WriteLine(ii);
+            }
+
+            //Question F
+            Console.WriteLine("Enter 1st digit");
+            int u = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter 2nd digit");
+            int v = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter 3rd digit");
+            int w = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter 4th digit");
+            int x = Convert.ToInt32(Console.ReadLine());
+
+            int z = (u + v + w + x);
+
+            int zz = (u / 4);
+            Console.WriteLine("Average of 4 numbers is " + z);
+            
+           
+            //Question G
+            Console.WriteLine("Enter you name please");
+            String name2 = Console.ReadLine();
+            Console.WriteLine("{0}, you look older than 20", name2);
+
+            {
+
+                {
+
+                    { 
+            //Question I
+
+            int h = Convert.ToInt32(Console.ReadLine());
+            if (h > 20 && h < 100)
+            {
+                Console.WriteLine("In the range of 20 to 100");
+            }
+            else
+            {
+                Console.WriteLine("Not In Range");
+            }
+
+
         }
     }
 }
-
+        }
+    }
